@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Rotonda_Medium; /* Имя шрифта */
+    src: url(/fonts/Rotonda_Medium.otf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: Flame_Bold; /* Имя шрифта */
+    src: url(/fonts/FLAME-BOLD.OTF); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: Flame_Regular; /* Имя шрифта */
+    src: url(/fonts/FLAME-REGULAR.OTF); /* Путь к файлу со шрифтом */
+   }
+
+body{
+    background-color:  #F5EBDC;
+}
+a, p{
+    color:#502314;
+    font-family: Rotonda_Medium;
+}
+h1{
+    color:#502314;
+    font-family: Flame_Regular;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-transform: uppercase
+}
+h2{
+    color:#502314;
+    font-family: Flame_Regular;
+    text-transform: uppercase;
+    font-size: 10px;
+    text-transform: uppercase
+}
+h3, h4, h5 {
+    color:#502314;
+    font-family: Flame_Regular;
+    text-transform: uppercase;
+}
+p{
+    font-size: 10px;
+}
+hr{
+    color: #FFAA00; 
+    background-color: #FFAA00; 
+    height: px;   
+}
+
+/* horisontal line */
+.path{
+    margin-top: 25px;
+}
+.path a{
+    font-family: Flame_Regular;
+    font-size: 10px;
+}
+/*---------- --------------------- */
+.main_block_header{
+    margin-top: 20px; 
+    font-family: Flame_Regular;
+    font-size: 20px;
+    color:#502314;
+    text-transform: uppercase;
+}
+.secondary_block_header{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.control a{
+    color:white;
+    font-family: Rotonda_Medium; 
+    font-size: 12px;  
+}
+.white_border_box{
+border: white 2px solid;
+}
+/* colored menu */
+.brownBox{
+   background-color: #502314;
+   text-align: center;
+   padding: 10px;
+}
+.yellowBox{
+   background-color: #FFAA00;
+   text-align: center;
+   padding: 10px;
+}
+.redBox{
+   background-color: #D62300;
+   text-align: center;
+   padding: 10px;
+}
+.orangeBox{
+   background-color: #FF8732;
+   text-align: center;
+   padding: 10px;
+   
+}
+.greenBox{
+   background-color: #198737;
+   text-align: center;
+   padding: 10px;
+}
+.whiteBox{
+    background-color: white;
+    padding: 10px;
+}
+.greyBox{
+    background-color: rgb(182, 181, 180);
+    padding: 10px;
+}
+
+
+.message a{
+    color:white;
+    font-family: Rotonda_Medium; 
+    font-size: 10px;  
+}
+.btn-primary{
+    background-color: #198737 !important;
+    border-radius: 3%;
+    border-color: #198737;
+    font-family: Rotonda_Medium;
+    font-size: 9px;
+    text-transform: uppercase;
+}
