@@ -66,6 +66,20 @@ hr{
     margin-top:20px;
     margin-bottom:20px;
 }
+.tertiary_block_header{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-family: Flame_Regular;
+    font-size: 14px;
+    color:#198737;
+    text-transform: uppercase;   
+}
+.block_centered{
+    text-align: center;
+}
+.block_aligned_left{
+    text-align: left;
+}
 .control a{
     color:white;
     font-family: Rotonda_Medium; 
@@ -106,7 +120,7 @@ border: white 2px solid;
     padding: 10px;
 }
 .greyBox{
-    background-color: rgb(182, 181, 180);
+    background-color: rgb(233, 236, 239);
     padding: 10px;
     font-family: Rotonda_Medium !important;
 }
@@ -115,7 +129,7 @@ border: white 2px solid;
     line-height: 12px;
 }
 .message a{
-    color:white;
+    color:#502314;
     font-family: Rotonda_Medium; 
     font-size: 11px;  
 }
@@ -127,6 +141,7 @@ border: white 2px solid;
     font-family: Rotonda_Medium;
     font-size: 9px;
     text-transform: uppercase;
+    color:#502314 ;
 }
 .greenButton{
     background-color: #198737 !important;
