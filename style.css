@@ -108,15 +108,27 @@ border: white 2px solid;
 .greyBox{
     background-color: rgb(182, 181, 180);
     padding: 10px;
+    font-family: Rotonda_Medium !important;
 }
 
-
+.message{
+    line-height: 12px;
+}
 .message a{
     color:white;
     font-family: Rotonda_Medium; 
-    font-size: 10px;  
+    font-size: 11px;  
 }
-.btn-primary{
+.transparentButton{
+    background-color:transparent;
+    border-color: #502314;
+    border-radius: 5% !important;
+    border-width: 2px;
+    font-family: Rotonda_Medium;
+    font-size: 9px;
+    text-transform: uppercase;
+}
+.greenButton{
     background-color: #198737 !important;
     border-radius: 3%;
     border-color: #198737;
