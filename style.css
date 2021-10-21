@@ -14,32 +14,6 @@
 body{
     background-color:  #F5EBDC;
 }
-a, p{
-    color:#502314;
-    font-family: Rotonda_Medium;
-}
-h1{
-    color:#502314;
-    font-family: Flame_Regular;
-    text-transform: uppercase;
-    font-size: 14px;
-    text-transform: uppercase
-}
-h2{
-    color:#502314;
-    font-family: Flame_Regular;
-    text-transform: uppercase;
-    font-size: 10px;
-    text-transform: uppercase
-}
-h3, h4, h5 {
-    color:#502314;
-    font-family: Flame_Regular;
-    text-transform: uppercase;
-}
-p{
-    font-size: 10px;
-}
 hr{
     color: #FFAA00; 
     background-color: #FFAA00; 
@@ -47,26 +21,31 @@ hr{
 }
 
 /* horisontal line */
-.path{
+.bk_path{
     margin-top: 25px;
 }
-.path a{
+.bk_path a{
     font-family: Flame_Regular;
     font-size: 10px;
+    color:#502314;
 }
 /*---------- --------------------- */
-.main_block_header{
+.bk_main_block_header{
     margin-top: 20px; 
     font-family: Flame_Regular;
     font-size: 20px;
     color:#502314;
     text-transform: uppercase;
 }
-.secondary_block_header{
+.bk_secondary_block_header{
     margin-top:20px;
     margin-bottom:20px;
+    color:#502314;
+    font-family: Flame_Regular;
+    text-transform: uppercase;
+    font-size: 14px;
 }
-.tertiary_block_header{
+.bk_tertiary_block_header{
     margin-top:20px;
     margin-bottom:20px;
     font-family: Flame_Regular;
@@ -74,80 +53,107 @@ hr{
     color:#198737;
     text-transform: uppercase;   
 }
-.block_centered{
+.bk_lables{
+    color:#502314;
+    font-family: Flame_Regular;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-top: 1rem;
+}
+.bk_form_values{
+    color:#502314;
+    font-family: Rotonda_Medium;
+    font-size: 9px;
+    border-color: white;
+    border-radius:0%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+.bk_white_border_box{
+    border: white 3px solid;
+}
+.bk_white_table_borders{
+    border: white 3px solid;
+    padding: 3px;
+}
+.bk_block_centered{
     text-align: center;
 }
-.block_aligned_left{
+.bk_block_aligned_left{
     text-align: left;
 }
-.control a{
+.bk_control a{
     color:white;
     font-family: Rotonda_Medium; 
     font-size: 12px;  
 }
-.white_border_box{
-border: white 2px solid;
-}
 /* colored menu */
-.brownBox{
+.bk_brownBox{
    background-color: #502314;
    text-align: center;
    padding: 10px;
 }
-.yellowBox{
+.bk_yellowBox{
    background-color: #FFAA00;
    text-align: center;
    padding: 10px;
 }
-.redBox{
+.bk_redBox{
    background-color: #D62300;
    text-align: center;
    padding: 10px;
 }
-.orangeBox{
+.bk_orangeBox{
    background-color: #FF8732;
    text-align: center;
    padding: 10px;
    
 }
-.greenBox{
+.bk_greenBox{
    background-color: #198737;
    text-align: center;
    padding: 10px;
 }
-.whiteBox{
+.bk_whiteBox{
     background-color: white;
     padding: 10px;
 }
-.greyBox{
+.bk_greyBox{
     background-color: rgb(233, 236, 239);
     padding: 10px;
     font-family: Rotonda_Medium !important;
 }
 
-.message{
+.bk_message{
     line-height: 12px;
 }
-.message a{
+.bk_message a{
     color:#502314;
     font-family: Rotonda_Medium; 
-    font-size: 11px;  
+    font-size: 9px;  
 }
-.transparentButton{
+.bk_transparentButton{
     background-color:transparent;
     border-color: #502314;
-    border-radius: 5% !important;
     border-width: 2px;
     font-family: Rotonda_Medium;
     font-size: 9px;
     text-transform: uppercase;
     color:#502314 ;
+    padding-top: 3px;
+    padding-left: 8px;
+    padding-bottom: 3px;
+    padding-right: 8px;
+    margin-bottom: 35px;
 }
-.greenButton{
+.bk_greenButton{
     background-color: #198737 !important;
-    border-radius: 3%;
     border-color: #198737;
     font-family: Rotonda_Medium;
     font-size: 9px;
     text-transform: uppercase;
+    padding-top: 3px;
+    padding-left: 8px;
+    padding-bottom: 3px;
+    padding-right: 8px;
 }
