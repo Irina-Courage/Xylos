@@ -59,6 +59,7 @@ hr{
     text-transform: uppercase;
     font-size: 10px;
     padding-top: 1rem;
+   
 }
 .bk_form_values{
     color:#502314;
@@ -74,7 +75,8 @@ hr{
 }
 .bk_white_table_borders{
     border: white 3px solid;
-    padding: 3px;
+    padding: 5px;
+    margin: 5px;
 }
 .bk_block_centered{
     text-align: center;
@@ -90,22 +92,18 @@ hr{
 /* colored menu */
 .bk_brownBox{
    background-color: #502314;
-   text-align: center;
    padding: 10px;
 }
 .bk_yellowBox{
    background-color: #FFAA00;
-   text-align: center;
    padding: 10px;
 }
 .bk_redBox{
    background-color: #D62300;
-   text-align: center;
    padding: 10px;
 }
 .bk_orangeBox{
    background-color: #FF8732;
-   text-align: center;
    padding: 10px;
    
 }
@@ -119,9 +117,8 @@ hr{
     padding: 10px;
 }
 .bk_greyBox{
-    background-color: rgb(233, 236, 239);
+    background-color: #E5E4E2;
     padding: 10px;
-    font-family: Rotonda_Medium !important;
 }
 
 .bk_message{
@@ -144,7 +141,6 @@ hr{
     padding-left: 8px;
     padding-bottom: 3px;
     padding-right: 8px;
-    margin-bottom: 35px;
 }
 .bk_greenButton{
     background-color: #198737 !important;
@@ -157,3 +153,4 @@ hr{
     padding-bottom: 3px;
     padding-right: 8px;
 }
+
