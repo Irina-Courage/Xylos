@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Годовая Форма премирования</title>
+    <!-- Сотрудник с 2 формами-Годовая Форма премирования Согласие с целями -->
+</head>
+
+<body>
+    <header>
+        <div class="container bk_path">
+            <div class="row">
+                <div class="col">
+                    <a href="#">Home \ страница \ ***</a>
+                    <br>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="container">
+
+            <div class="row">
+                <div class="col bk_main_block_header">Автоматизация расчета KPI
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col bk_secondary_block_header">Управление</div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="container bk_white_border_box">
+                        <div class="row ">
+                            <div class="col bk_greenBox bk_control bk_block_centered"> <a href="#">Моё премирование</a></div>
+                            <div class="col bk_yellowBox bk_control bk_block_centered"> <a href="#">Архив</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row"><br></div>
+            </div>
+            <div class="container">
+
+                <div class="row">
+                    <ul class="nav nav-tabs">
+                        <!-- Первая вкладка (активная) -->
+                        <li class="nav-item">
+                            <a class="nav-link active bk_secondary_block_header" data-toggle="tab" href="#yearly">Год</a>
+                        </li>
+                        <!-- Вторая вкладка -->
+                        <li class="nav-item ">
+                            <a class="nav-link bk_secondary_block_header " data-toggle="tab" href="#quartarly">Квартал</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="yearly">
+                            <!-- ************** -->
+                            <div class="container bk_whiteBox">
+                                <div class="row bk_secondary_block_header bk_block_centered">
+                                    <div class="col">
+                                        уважаемый сотрудник!
+                                    </div>
+                                </div>
+                                <div class="row bk_message">
+                                    <div class="col">
+                                        <a>Годовой бонус зависит от Ваших индивидуальных результатов и годовых результатов компании по достижению целей за 2021 год. Цели по компании устанавливаются на год и утверждаются генеральным директором компании. Ваш годовой бонус будет выплачен после получения финансовых результатов деятельности компании за 2021 год и оценки достижения ваших индивидуальных целей Вашим руководителем, но не позднее  выплаты заработной платы за июнь 2022 года
+                                        </a>
+                                        <br> <br>
+                                        <a>Бонус будет выплачен Вам только при условии, что вы работаете в компании на на день выплаты бонуса и не имеете дисциплинарных взысканий.  Если ваши Индивидуальные цели не достгнуты, то Итоговый бонус составляет 0%, несмотрая на уровень достижения результатов компании в целом.  Если агрегированые цели Компании не выполнены, то бонус по индивидуальным показателям не выплачивается вне зависимости от уровня выполнения индивидуальных целей.
+                                        </a>
+                                        <br> <br>
+                                        <a>Если у вас будут изменения заработной платы, перевод на новую должность или перевод в другое подразделение в течение периодов бонусирования, то цели и размер бонуса будут пересмотрены в соответствии с изменениями</a>
+                                    </div>
+                                </div>
+                                <div class="row"><br></div>
+                                <!-- buttons  -->
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-row text-center">
+                                            <div class="col">
+                                                <button type="button"
+                                                    class="btn rounded btn-primary bk_greenButton">выгрузить
+                                                    форму</button>
+                                            </div>
+                                            <div class="col">
+                                                <button type="button"
+                                                    class="btn rounded btn-primary bk_greenButton">ознакомлен и согласен с поставленными целями</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row"><br></div>
+                                
+                                <!-- employee -->
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="container bk_greyBox">
+
+                                            <form>
+                                                <div class="form-row">
+                                                    <div class="col">
+
+                                                        <div class="form-group row">
+                                                            <label for="bk_fio"
+                                                                class="col-sm-4 col-form-label col-form-label-sm bk_lables">Сотрудник
+                                                                ФИО:
+                                                            </label>
+                                                            <div class="col-sm-8">
+                                                                <input type="text"
+                                                                    class="form-control form-control-sm bk_form_values bk_block_centered "
+                                                                    id="bk_fio" placeholder="Иванов Иван Иванович">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group row">
+                                                            <label for="bk_position"
+                                                                class="col-sm-4 col-form-label col-form-label-sm bk_lables">Должность:
+                                                            </label>
+                                                            <div class="col-sm-8">
+                                                                <input type="text"
+                                                                    class="form-control form-control-sm bk_form_values bk_block_centered"
+                                                                    id="bk_position" placeholder="***">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group row">
+                                                            <label for="bk_department"
+                                                                class="col-sm-4 col-form-label col-form-label-sm bk_lables">Подразделение
+                                                            </label>
+                                                            <div class="col-sm-8">
+                                                                <input type="text"
+                                                                    class="form-control form-control-sm bk_form_values bk_block_centered"
+                                                                    id="bk_department" placeholder="***">
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="class container">
+                                                            <div class="class row">
+                                                                <div class="class col-sm-4">
+                                                                    <br>
+                                                                </div>
+                                                                <div class="class col-sm-8 bk_block_centered">
+                                                                    <button type="button"
+                                                                        class="btn btn-primary btn-sm bk_transparentButton ">Форма
+                                                                        создана</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group row">
+                                                            <label for="bk_manager"
+                                                                class="col-sm-4 col-form-label col-form-label-sm bk_lables">Руководитель
+                                                                (ФИО,
+                                                                Должность):
+                                                            </label>
+                                                            <div class="col-sm-8">
+                                                                <input type="text"
+                                                                    class="form-control form-control-sm bk_form_values bk_block_centered"
+                                                                    id="bk_manager" placeholder="***">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <label for="bk_period"
+                                                                class="col-sm-4 col-form-label col-form-label-sm bk_lables ">Отчетный
+                                                                период:
+                                                            </label>
+                                                            <div class="col-sm-8">
+                                                                <input type="date"
+                                                                    class="form-control form-control-sm bk_form_values bk_block_centered"
+                                                                    id="bk_period" placeholder="20/01/2020">
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row"><br></div>
+
+                                <!-- target block  -->
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="container bk_greyBox">
+                                            <div class="row">
+                                                <div class="col bk_tertiary_block_header bk_block_centered">
+                                                    Индивидуальные цели месяца
+                                                </div>
+                                            </div>
+                                            <!-- цели -->
+                                            <form>
+                                                <div class="container">
+                                                    <!-- header for the form -->
+                                                    <div class="row">
+                                                        <div class="col-sm-1"></div>
+                                                        <div class="col-sm-11">
+                                                            <div class="row">
+                                                                <div class="col-6">
+                                                                    <div class="row">
+                                                                        <div class="col">
+                                                                            <div
+                                                                                class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                                                показатели
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <div class="row">
+                                                                        <div class="col-sm-3">
+                                                                            <div
+                                                                                class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                                                целевой показатель (план)
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-3">
+                                                                            <div
+                                                                                class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                                                фактический показатель (факт)
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-3">
+                                                                            <div
+                                                                                class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                                                выполнение целей в %
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-3">
+                                                                            <div
+                                                                                class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                                                %выполнения цели с учетом порога и веса
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- цель описание -->
+                                                    <div class="row">
+                                                        <div class="col-1">
+                                                            <div class="row">
+                                                                <div class="col-sm-1"> <a href="#"> <img
+                                                                            src="img/Green_expand_button.png"
+                                                                            alt="детали"></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-11">
+                                                            <div class="row">
+                                                                <div class="col-6">
+                                                                    <div class="row">
+                                                                        <div class="col">
+                                                                            <input
+                                                                                class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                                                type="text" id="bk_TargetName "
+                                                                                placeholder="Цель номер 1">
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <div class="row">
+
+                                                                        <div class="col-sm-3">
+                                                                            <input
+                                                                                class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                                                type="text" id="bk_TargetPlan"
+                                                                                placeholder="***">
+                                                                        </div>
+                                                                        <div class="col-sm-3"><input
+                                                                                class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                                                type="text" id="bk_TargetActual"
+                                                                                placeholder="***" readonly></div>
+                                                                        <div class="col-sm-3"><input
+                                                                                class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                                                type="text" id="bk_TargetPercent1"
+                                                                                placeholder="***" readonly></div>
+                                                                        <div class="col-sm-3"><input
+                                                                                class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                                                type="text" id="bk_TargetPercent2"
+                                                                                placeholder="***" readonly></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- аккордеон 1-->
+                                                    <div class="row">
+                                                        <div class="col-1">
+
+                                                        </div>
+                                                        <div class="col-11">
+                                                            <div class="row">
+                                                                <div class="col-6">
+                                                                    <div class="row">
+                                                                        <div class="col-8">
+                                                                            <div
+                                                                                class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                                                единицы измерений
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-4">
+                                                                            <input
+                                                                                class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                                                type="text" id="bk_TargerMeasure"
+                                                                                placeholder="***">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <div class="row">
+                                                                        <div class="col-8">
+                                                                            <div
+                                                                                class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                                                виды цели (прямая/обратная)
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-4">
+                                                                            <input
+                                                                                class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                                                type="text" id="bk_TargerType"
+                                                                                placeholder="***">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- аккордеон 2-->
+                                                    <div class="row">
+                                                        <div class="col-1">
+
+                                                        </div>
+                                                        <div class="col-11">
+                                                            <div class="row">
+                                                                <div class="col-6">
+                                                                    <div class="row">
+                                                                        <div class="col-8">
+                                                                            <div
+                                                                                class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                                                Вес, %
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-4">
+                                                                            <input
+                                                                                class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                                                type="text" id="bk_TargerMeasure"
+                                                                                placeholder="***">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <div class="row">
+                                                                        <div class="col-8">
+                                                                            <div
+                                                                                class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                                                Срок исполнения
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-4">
+                                                                            <input
+                                                                                class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                                                type="data" id="bk_TargerType"
+                                                                                placeholder="***">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- аккордеон 3-->
+                                                    <div class="row">
+                                                        <div class="col-1">
+
+                                                        </div>
+                                                        <div class="col-11">
+                                                            <div class="row">
+                                                                <div class="col-6">
+                                                                    <div class="row">
+                                                                        <div class="col-8">
+                                                                            <div
+                                                                                class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                                                Нижний порог
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-4">
+                                                                            <input
+                                                                                class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                                                type="text" id="bk_TargerMeasure"
+                                                                                placeholder="***">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <div class="row">
+                                                                        <div class="col-8">
+                                                                            <div
+                                                                                class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                                                Верхний порог
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-4">
+                                                                            <input
+                                                                                class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                                                type="data" id="bk_TargerType"
+                                                                                placeholder="***">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- цель 2 описание -->
+                                                    <div class="row">
+                                                        <div class="col-1">
+                                                            <div class="row">
+                                                                <div class="col-sm-1"> <a href="#"> <img
+                                                                            src="img/Gray_expand_button.png"
+                                                                            alt="детали"></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-11">
+                                                            <div class="row">
+                                                                <div class="col-6">
+                                                                    <div class="row">
+                                                                        <div class="col">
+                                                                            <input
+                                                                                class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                                                type="text" id="bk_TargetName "
+                                                                                placeholder="Цель номер 2">
+                                                                        </div>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="col-6">
+                                                                    <div class="row">
+
+                                                                        <div class="col-sm-3">
+                                                                            <input
+                                                                                class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                                                type="text" id="bk_TargetPlan"
+                                                                                placeholder="***">
+                                                                        </div>
+                                                                        <div class="col-sm-3"><input
+                                                                                class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                                                type="text" id="bk_TargetActual"
+                                                                                placeholder="***" readonly></div>
+                                                                        <div class="col-sm-3"><input
+                                                                                class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                                                type="text" id="bk_TargetPercent1"
+                                                                                placeholder="***" readonly></div>
+                                                                        <div class="col-sm-3"><input
+                                                                                class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                                                type="text" id="bk_TargetPercent2"
+                                                                                placeholder="***" readonly></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <br>
+                                                    </div>
+                                                    <!-- Total weight -->
+                                                    <div class="row">
+                                                        <div class="col-sm-1"></div>
+                                                        <div class="col-sm-11">
+                                                            <div class="row">
+                                                                <div class="col-6">
+                                                                    <div class="row">
+                                                                        <div class="col-8">
+                                                                            <div
+                                                                                class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                                                Итоговый вес индивидуальных целей
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-4">
+                                                                            <input
+                                                                                class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                                                type="text" readonly
+                                                                                id="bk_TargerTotalWeight"
+                                                                                placeholder="100%">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-6">
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+                                <div class="row"><br></div>
+                                
+                                <!-- Total -->
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="container bk_greyBox">
+                                            <div class="row">
+                                                <div class="col-sm-9 bk_tertiary_block_header bk_block_aligned_left ">
+                                                    Итоговое
+                                                    выполнение
+                                                    индивидуальных целей</div>
+                                                <div class="col-sm-3">
+                                                    <form>
+                                                        <div class="form-group bk_white_border_box">
+                                                            <label for="exampleFormControlInput1"></label>
+                                                            <input type="number" class="form-control"
+                                                                id="exampleFormControlInput1" placeholder=" " readonly>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row"><br></div>
+
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-row text-center">
+                                            <div class="col-2"></div>
+                                            <div class="col-2">
+                                                <button type="button"
+                                                    class="btn rounded btn-primary bk_greenButton">выгрузить
+                                                    форму</button>
+                                            </div>
+                                            <div class="col-5">
+                                                <button type="button"
+                                                    class="btn rounded btn-primary bk_greenButton">ознакомлен и согласен с поставленными целями</button>
+                                            </div>
+                                            <div class="col-3"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- ************** -->
+                        </div>
+                        <div class="tab-pane fade" id="quartarly">
+                            ...
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Bootstrap CSS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
+<!-- <div class="col-1">
+    <div class="row">
+        <div class="col-sm-1"> <a href="#" > <img src="img/Green_expand_button.jpg" alt="детали" ></a></div>
+    </div>
+</div>
+<div class="col-11">
+    <div class="row">
+        <div class="col-6">
+            <div class="row">
+                
+            </div>
+
+        </div>
+        <div class="col-6">
+            <div class="row"></div>
+
+        </div>
+    </div>
+</div> -->
