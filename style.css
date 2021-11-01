@@ -57,6 +57,14 @@ a.nav-link.bk_secondary_block_header.active
     color:#198737;
     text-transform: uppercase;   
 }
+.bk_tertiary_block_totals{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-family: Flame_Regular;
+    font-size: 14px;
+    color:#502314;;
+    text-transform: uppercase;   
+}
 .bk_lables{
     color:#502314;
     font-family: Flame_Regular;
