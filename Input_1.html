@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>РУ ВП все показатели внесение инд факта 2 шаг
+    </title>
+    <!-- РУ ВП все показатели внесение инд факта 2 шаг
+ -->
+</head>
+
+<body>
+    <header>
+        <div class="container bk_path">
+            <div class="row">
+                <div class="col">
+                    <a href="#">Home \ страница \ ***</a>
+                    <br>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col bk_main_block_header">Автоматизация расчета KPI
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col bk_secondary_block_header">Управление</div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="container bk_white_border_box">
+                    <div class="row ">
+                        <div class="col bk_greenBox bk_control bk_block_centered"> <a href="#">Моё премирование</a>
+                        </div>
+                        <div class="col bk_redBox bk_control bk_block_centered"> <a href="#">Команда</a></div>
+                        <div class="col bk_orangeBox bk_control bk_block_centered"> <a href="#">Отчетность</a></div>
+                        <div class="col bk_yellowBox bk_control bk_block_centered"> <a href="#">Архив</a></div>
+                        <div class="col bk_brownBox bk_control bk_block_centered"> <a href="#">Показатели</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row"><br></div>
+        </div>
+
+        <div class="row">
+            <div class="container">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active bk_secondary_block_header" data-toggle="tab"
+                            href="#bk_compamy_targets">Цели и квалификаторы по компании</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link bk_secondary_block_header " data-toggle="tab"
+                            href="#bk_individual_targets">Индивидуальные цели и квалификаторы</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="bk_compamy_targets">
+                        <!-- ************** -->
+                        <div class="container bk_whiteBox">
+                            <br>
+                            <!-- target block company's qualifiers  -->
+                            <div class="row">
+                                <div class="col">
+                                    <div class="container bk_greyBox">
+                                        <div class="row">
+                                            <div class="col bk_green_block_header_12 bk_block_centered">
+                                                Параметры показателя "Код цели/квалификатораЫ"
+                                            </div>
+                                        </div>
+                                        <!-- цели -->
+                                        <form>
+                                            <div class="container">
+                                                <!-- цель описание -->
+
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <div
+                                                            class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                            Название показателя
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-8">
+                                                        <input
+                                                            class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                            type="text" id="bk_inp_compamy_target_1" placeholder="**">
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <div
+                                                            class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                            Вид показателя
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-8">
+                                                        <input
+                                                            class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                            type="text" id="bk_inp_compamy_target_2" placeholder="**">
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+
+                                                    <div class="col-4">
+                                                        <div
+                                                            class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                            Единицы измрений
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-2">
+                                                        <input
+                                                            class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                            type="text" id="bk_inp_compamy_target_3" placeholder="**">
+                                                    </div>
+
+
+                                                    <div class="col-4">
+                                                        <div
+                                                            class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                            Целевой показатель(план)
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-2">
+                                                        <input
+                                                            class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                            type="text" id="bk_inp_compamy_target_4" placeholder="**">
+                                                    </div>
+
+                                                </div>
+                                                <div class="row">
+
+                                                    <div class="col-4">
+                                                        <div
+                                                            class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                            Фактический показатель (факт)
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-2">
+                                                        <input
+                                                            class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                            type="text" id="bk_inp_compamy_target_5" placeholder="**">
+                                                    </div>
+
+
+                                                    <div class="col-4">
+                                                        <div
+                                                            class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                            Итоговый факт за период
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-2">
+                                                        <input
+                                                            class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                            type="text" id="bk_inp_compamy_target_6" placeholder="**">
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </form>
+                                        <!-- buttons  -->
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-2"></div>
+                                            <div class="col-8">
+                                                <div class="form-row text-center">
+                                                    <div class="col">
+                                                        <button type="button"
+                                                            class="btn rounded btn-primary bk_big_greenButton">сохраниить
+                                                            и вернуться</button>
+                                                    </div>
+                                                    <div class="col">
+                                                        <button type="button"
+                                                            class="btn rounded btn-primary bk_big_greenButton">вернуться
+                                                            без сохранения изменений</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2"></div>
+                                        </div>
+                                        <br>
+                                        <!--/ buttons  -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row"><br></div>
+                            <!-- История внесения данных по показателю -->
+                            <div class="row">
+                                <div class="col">
+                                    <div class="container bk_greyBox">
+                                        <div class="row">
+                                            <div class="col bk_green_block_header_12 bk_block_centered">
+                                                История внесения данных по показателю</div>
+                                        </div>
+
+                                        <!-- values -->
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <div
+                                                    class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                    Дата
+                                                </div>
+                                            </div>
+                                            <div class="col-5">
+                                                <div
+                                                    class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                    ФИО
+                                                </div>
+                                            </div>
+                                            <div class="col-5">
+                                                <div
+                                                    class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                    Действие/Комментарий
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- header -->
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <input
+                                                    class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                    type="text" id="bk_inp_compamy_target_hist_1" placeholder="***">
+                                            </div>
+                                            <div class="col-5">
+                                                <input
+                                                    class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                    type="text" id="bk_inp_compamy_target_hist_2" placeholder="***">
+                                            </div>
+                                            <div class="col-5">
+                                                <input
+                                                    class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                    type="text" id="bk_inp_compamy_target_hist_3" placeholder="***">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ************** -->
+                    </div>
+                    <div class="tab-pane fade" id="bk_individual_targets">
+                          <!-- ************** -->
+                          <div class="container bk_whiteBox">
+                            <br>
+                            <!-- target block company's qualifiers  -->
+                            <div class="row">
+                                <div class="col">
+                                    <div class="container bk_greyBox">
+                                        <div class="row">
+                                            <div class="col bk_green_block_header_12 bk_block_centered">
+                                                Параметры показателя "Код цели/квалификатораЫ"
+                                            </div>
+                                        </div>
+                                        <!-- цели -->
+                                        <form>
+                                            <div class="container">
+                                                <!-- цель описание -->
+
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <div
+                                                            class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                            Название показателя
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-8">
+                                                        <input
+                                                            class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                            type="text" id="bk_inp_compamy_target_1" placeholder="**">
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <div
+                                                            class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                            Вид показателя
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-2">
+                                                        <input
+                                                            class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                            type="text" id="bk_inp_compamy_target_21" placeholder="**">
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <div
+                                                            class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                            Регион
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-2">
+                                                        <input
+                                                            class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                            type="text" id="bk_inp_compamy_target_22" placeholder="**">
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+
+                                                    <div class="col-4">
+                                                        <div
+                                                            class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                            Единицы измрений
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-2">
+                                                        <input
+                                                            class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                            type="text" id="bk_inp_compamy_target_3" placeholder="**">
+                                                    </div>
+
+
+                                                    <div class="col-4">
+                                                        <div
+                                                            class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                            Целевой показатель(план)
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-2">
+                                                        <input
+                                                            class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                            type="text" id="bk_inp_compamy_target_4" placeholder="**">
+                                                    </div>
+
+                                                </div>
+                                                <div class="row">
+
+                                                    <div class="col-4">
+                                                        <div
+                                                            class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                            Фактический показатель (факт)
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-2">
+                                                        <input
+                                                            class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                            type="text" id="bk_inp_compamy_target_5" placeholder="**">
+                                                    </div>
+
+
+                                                    <div class="col-4">
+                                                        <div
+                                                            class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                            Итоговый факт за период
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-2">
+                                                        <input
+                                                            class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                            type="text" id="bk_inp_compamy_target_6" placeholder="**">
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </form>
+                                        <!-- buttons  -->
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-2"></div>
+                                            <div class="col-8">
+                                                <div class="form-row text-center">
+                                                    <div class="col">
+                                                        <button type="button"
+                                                            class="btn rounded btn-primary bk_big_greenButton">сохраниить
+                                                            и вернуться</button>
+                                                    </div>
+                                                    <div class="col">
+                                                        <button type="button"
+                                                            class="btn rounded btn-primary bk_big_greenButton">вернуться
+                                                            без сохранения изменений</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-2"></div>
+                                        </div>
+                                        <br>
+                                        <!--/ buttons  -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row"><br></div>
+                            <!-- История внесения данных по показателю -->
+                            <div class="row">
+                                <div class="col">
+                                    <div class="container bk_greyBox">
+                                        <div class="row">
+                                            <div class="col bk_green_block_header_12 bk_block_centered">
+                                                История внесения данных по показателю</div>
+                                        </div>
+
+                                        <!-- values -->
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <div
+                                                    class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                    Дата
+                                                </div>
+                                            </div>
+                                            <div class="col-5">
+                                                <div
+                                                    class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                    ФИО
+                                                </div>
+                                            </div>
+                                            <div class="col-5">
+                                                <div
+                                                    class="container bk_white_table_borders bk_lables bk_block_centered">
+                                                    Действие/Комментарий
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- header -->
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <input
+                                                    class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                    type="text" id="bk_inp_compamy_target_hist_1" placeholder="***">
+                                            </div>
+                                            <div class="col-5">
+                                                <input
+                                                    class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                    type="text" id="bk_inp_compamy_target_hist_2" placeholder="***">
+                                            </div>
+                                            <div class="col-5">
+                                                <input
+                                                    class="form-control form-control-sm bk_form_values bk_white_table_borders"
+                                                    type="text" id="bk_inp_compamy_target_hist_3" placeholder="***">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ************** -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row"><br></div>
+
+    </div>
+
+
+    <!-- Bootstrap CSS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
